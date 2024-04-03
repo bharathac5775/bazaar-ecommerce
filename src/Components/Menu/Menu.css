@@ -1,0 +1,148 @@
+.mymenu{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    gap: 40px;
+    color: #626262;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-left: 100px;
+    margin-left: 400px;
+    margin-right: 0px; 
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* .btn1{
+    border-radius: 10px;
+    background:rgb(225, 215, 215) ;
+    width: 155px;
+    height: 45px;
+    display: flex;
+    padding: 50px 50px auto auto;
+    margin: 10px 0 auto auto ;
+    align-items: center;
+    color: #615b5b;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.all-categories{
+    margin-left: 80px;
+} */
+/* .catgrories{
+    display: flex;
+    background:rgb(225, 215, 215) ;
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ .catgrories span{
+    margin-right:10px ;
+    font-size: 22px;
+    margin-top: 10px;
+ }
+ .catgrories h4{
+    font-weight: 500;
+    margin-top: 8px;
+    font-size: 1.5rem;
+ }
+  .catgrories h4 i{
+    margin-left: 4px;
+  } */
+
+
+  
+
+   /* .btn{
+    width: 112px;
+    background-color:rgb(225, 215, 215);
+    padding-left: 0;
+   
+ } */
+
+/* 
+
+  .catgrories{
+    display: flex;
+    background:rgb(225, 215, 215) ;
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 6vh;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.catgrories span{
+    margin-right:8px ;
+    font-size: 20px;
+   
+ }
+
+
+ .btn:hover {
+    background-color:rgb(225, 215, 215);
+    
+  }
+  #openPopup{
+    width: 150px;
+  }
+  
+  .dropdown-item img{
+    padding-right: 10px;
+  } */
+
+  .catgrories span{
+    margin-right:8px ;
+    font-size: 20px; 
+ }
+ .catgrories{
+    display: flex;
+ 
+    padding: 0 10px;
+    border-radius: 5px;
+    height: 6vh;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#openPopup{
+    color: white;
+   
+  }
+.dropdown-item img{
+    padding-right: 10px;
+  }

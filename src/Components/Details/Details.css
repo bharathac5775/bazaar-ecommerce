@@ -1,0 +1,137 @@
+.All{
+    width:100%;
+    height: 498px;
+}
+.progress{
+    width: 100%;
+    height: 80px;
+    background-color:  #e0e5fa;
+}
+.content1{
+    width: 100%;
+    height:450px;
+    background-color: #e0e5fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.card1{
+    height: 380px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card2{
+    height: 380px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+.inputs{
+    /* background-color: black; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border:2px solid grey;
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.input2{
+    display: flex;
+    gap:15px;
+}
+
+.check{
+    height: 20px;
+    width: 20px;
+    border: 2px solid gray;
+    margin-left: 20px;
+    margin-right: 5px;
+    
+}
+
+.bill{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    padding: 30px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.inp2{
+    margin-top: 8px;
+    width: 100%;
+    height: 35px;
+}
+.bt1{
+    width: 100%;
+    height: 35px;
+    color: #ff4141;
+    background-color: white;
+    border:2px solid #ff4141; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bt2{
+    width: 70%;
+    height: 35px;
+    color: #ff4141;
+    background-color: white;
+    border:2px solid #ff4141; 
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.bt3{
+    width: 70%;
+    height: 35px;
+    color:  white;
+    background-color: #ff4141;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 60px;
+    border: none;
+
+}
+
+
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #ff4141;
+    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle:nth-child(3)~div{
+    background-color: #f9c6cf;
+  color: #ff4141;
+}
+.line{
+   width: 50px;
+   height: 5px;
+   background-color:#ff4141;
+}
+

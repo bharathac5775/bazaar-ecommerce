@@ -1,0 +1,107 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login img{
+    width: 70px;
+    height: 70px;
+}
+.heading{
+    font-style: italic;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #ff4141;
+}
+
+.log-input{
+      
+    width: 400px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 5px 0 auto 0;
+   padding-top: 0;
+    height: 2.5rem;
+    box-shadow: 0px 0px 8px #ddd;
+    align-items: center;
+   margin-bottom: 15px;
+    
+}
+  
+.log-input input{
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    width: 100%;
+    height: 100%;
+   text-align: left;
+}
+
+.log-email p{
+    margin-bottom: 0px;
+}
+.log-email{
+    padding: 10px;
+}
+
+.log-input Password{
+    width: 100%;
+}
+
+
+.p-icon{
+    left: 370px;
+    top: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.p-inputtext{
+    width: 380px;
+    height: 34px;
+}
+.lgbtn{
+    margin-bottom:13px ;
+}
+
+.or:after,
+.or:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+
+.facebook{
+    background-color: rgb(58, 58, 137);
+    margin-bottom: 14px;
+    margin-top: 10px;
+   
+}
+
+.facebook img{
+    height: 20px;
+    width: 30px;
+}
+.google{
+    background-color: rgb(173, 173, 242);
+    margin-bottom: 16px;
+}
+.google img{
+    height: 20px;
+    width: 30px;
+}
+
+.signtext{
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.passtext{
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration-line: underline; 
+}

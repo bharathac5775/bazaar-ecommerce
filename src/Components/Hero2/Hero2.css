@@ -1,0 +1,57 @@
+.hero2{
+    height: 500px;
+    
+    display: flex;
+}
+
+.hero2-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 150px;
+    line-height: 1.2;
+
+}
+
+.hero2-left h2{
+    color: #090909;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.hero2-left p{
+    columns: #171717;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.hero2-shop-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 260px;
+    height: 50px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero2-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-right: 150px;
+
+}
